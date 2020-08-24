@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <title>Nadieh Bremer</title>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet" />
+        <style>
+            body {
+                font-family: "Work Sans", sans-serif;
+                font-weight: 400;
+                background-color: #fafafa;
+                color: #222;
+            }
+
+            body::-webkit-scrollbar {
+                width: 0.4rem;
+                scrollbar-color: rgba(200, 200, 200, 1) rgba(225, 225, 225, 1);
+            }
+
+            body::-webkit-scrollbar-track {
+                background: rgba(225, 225, 225, 1);
+            }
+            body::-webkit-scrollbar-thumb {
+                background-color: rgba(200, 200, 200, 1);
+            }
+            body::-webkit-scrollbar-thumb:hover {
+                background-color: rgba(175, 175, 175, 1);
+            }
+
+            h1 {
+                font-family: "DM Serif Display", serif;
+                color: #444;
+                letter-spacing: 0.05rem;
+                font-weight: 400;
+                text-shadow: 0.05rem 0.05rem 0.1rem rgba(55, 55, 55, 0.25), -0.05rem -0.05rem 0.1rem rgba(200, 200, 200, 0.25);
+            }
+            @media (min-width: 992px) {
+                p {
+                    line-height: 1.8;
+                    text-align: justify;
+                }
+            }
+            figure {
+                position: relative;
+                margin-bottom: 2rem;
+                overflow:hidden;
+            }
+            figure img{
+                cursor:crosshair;
+            }
+            figure figcaption {
+                position: absolute;
+                bottom: -2rem;
+                left: 0.95rem;
+                margin:0;
+                color:rgba(255,255,255,0.9);
+                background: rgba(0, 0, 0, 0.75);
+            }
+            figure:hover figcaption {
+                bottom: 0;
+                transition: all ease 0.25s;
+            }            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-12">
+                    <h1 class="py-4">Nadieh Bremer</h1>
+                    <p>Nadieh Bremer (se pronuncia Nadi) es una diseñadora y artista freelancer que se dedica a la visualización de datos</p>
+                    <p>Graduada de astrónoma en 2011, dejó la academia para dedicarse a cosas más tangibles y dinámicas, lo que resultó en un trabajo de cuatro años como consultante en Deloitte </p>
+                    <p>Posterior a eso, deja su trabajo para dedicarse a lo que aparentemente la apasiona: visualización de datos con especialización en interactividad web</p>
+                </div>
+            </div>
+            <div class="row">
+                <!--Imagen 1-->
+                <figure class="col-12 col-lg-6">
+                    <img src="img/img_0.jpg" class="img-fluid shadow-sm" />
+                    <figcaption class="pt-1 pb-2 px-2 small">Rise and recent surge of Satelites, Scientific American (Mayo 2020)</figcaption>
+                </figure>
+                <!--Imagen 2-->
+                <figure class="col-12 col-lg-6">
+                    <img src="img/img_1.png" class="img-fluid shadow-sm" />
+                    <figcaption class="pt-1 pb-2 px-2 small">Hubble Space Telescope’s 30-year anniversary, Physics Today (Abril 2020)</figcaption>
+                </figure>
+                <!--Imagen 3-->
+                <figure class="col-12 col-lg-6">
+                    <img src="img/img_2.png" class="img-fluid shadow-sm" />
+                    <figcaption class="pt-1 pb-2 px-2 small">sales of hazardous pesticides by the CropLife companies, Greenpeace (Febrero 2020)</figcaption>
+                </figure>
+                <!--Imagen 4-->
+                <figure class="col-12 col-lg-6">
+                    <img src="img/img_3.png" class="img-fluid shadow-sm" />
+                    <figcaption class="pt-1 pb-2 px-2 small">Digital Trackers, New York Times (Agosto 2019)</figcaption>
+                </figure>
+                <!--Imagen 5-->
+                <figure class="col-12 col-lg-6">
+                    <img src="img/img_4.png" class="img-fluid shadow-sm" />
+                    <figcaption class="pt-1 pb-2 px-2 small">American consumers in 12 dimensions, Kantar's Motivemix (2018)</figcaption>
+                </figure>
+                <!--Imagen 6-->
+                <figure class="col-12 col-lg-6">
+                    <img src="img/img5_jpg" class="img-fluid shadow-sm" />
+                    <figcaption class="pt-1 pb-2 px-2 small">Marble Butterflies, Nadieh Bremer (Febrero 2017)</figcaption>
+                </figure>
+            </div>
+            <div class="row pt-5">
+                <footer class="col-12 py-3 border-top">
+                    <p>
+                        Francisco Pezoa <span class="float-right"><a href="https://github.com/Panshios/id-clase-03">Infografía Digital</a> <span class="d-none d-lg-inline">&bull; Lunes 24 de agosto, 2020</span></span>
+                    </p>
+                </footer>
+            </div>
+        </div>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            // Pueden visitar https://scrollrevealjs.org/ para conocer más sobre esta biblioteca de JavaScript   
+            ScrollReveal().reveal('figure', { delay: 500 });
+        </script>        
+    </body>
+</html>
